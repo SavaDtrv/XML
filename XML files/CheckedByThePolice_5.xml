@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<people xmlns="http://example.com/XMLProject"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://example.com/XMLProject CheckedByThePolice.xsd">
+
+    <person id_number="682593238" id_date_of_issue="2016-08-25"
+            id_expiry="2026-08-25" id_issued_by="МВР Стара Загора" signature="true">
+        <first_name>Иван</first_name>
+        <surname>Петров</surname>
+        <personal_NO>8807156534</personal_NO>
+        <date_of_birth>1988-07-15</date_of_birth>
+        <more_person_info>
+            <phone>0895624173</phone>
+        </more_person_info>
+        <close_person>
+            <phone>0898562314</phone>
+        </close_person>
+        <criminal_acts isCriminal="false" />
+    </person>
+
+    <person id_number="682593239" id_date_of_issue="2016-08-27" id_expiry="2026-08-27" id_issued_by="МВР Варна" signature="true">
+        <first_name>Пенко</first_name>
+        <surname>Станков</surname>
+        <personal_NO>8807156535</personal_NO>
+        <sex>Мъж</sex>
+        <eyes_color>Сини</eyes_color>
+        <height>175</height>
+        <date_of_birth>1988-07-16</date_of_birth>
+        <nationality>България</nationality>
+        <residence>София</residence>
+        <times_checked>
+            <times>5</times>
+            <this_month>true</this_month>
+        </times_checked>
+    </person>
+</people>
